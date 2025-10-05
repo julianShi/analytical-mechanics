@@ -73,3 +73,8 @@ cont.
 
 $\displaystyle \ddot{r} =-\frac{M_{0}^{2} u^{2}}{m^{2}}\frac{d^{2} u}{d\theta ^{2}}$
 
+## 代码验证
+
+用 SymPy 可以验证上述推导过程。请安装环境，并尝试执行 
+
+[chain-rule.ipynb](chain-rule.ipynb)

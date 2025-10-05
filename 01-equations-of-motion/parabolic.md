@@ -36,5 +36,7 @@ $\displaystyle v_{x} =v_{x}( t=0)$
 
 $\displaystyle v_{y} =v_{y}( t=0) -gt$
 
+## SymPy 验证
 
+请参考 [../README.md](../README.md) 访问在线SymPy环境，并执行 [parabolic.ipynb](parabolic.ipynb) 代码
 

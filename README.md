@@ -1,6 +1,6 @@
 # Analytical Mechanics
 
-[![Build Book](https://github.com/YOUR_USERNAME/analytical-mechanics/actions/workflows/jupyter-book.yml/badge.svg)](https://github.com/YOUR_USERNAME/analytical-mechanics/actions/workflows/jupyter-book.yml)
+[![Build Book](https://github.com/julianShi/analytical-mechanics/actions/workflows/jupyter-book.yml/badge.svg)](https://github.com/julianShi/analytical-mechanics/actions/workflows/jupyter-book.yml)
 
 Open textbook for teaching Analytical Mechanics with reproducible notebooks and interactive visualizations.
 
@@ -17,7 +17,7 @@ Open textbook for teaching Analytical Mechanics with reproducible notebooks and 
 
 ## Launch online
 
-- Binder: [Launch Binder](https://mybinder.org/v2/gh/YOUR_USERNAME/analytical-mechanics/HEAD)
+- Binder: [Launch Binder](https://mybinder.org/v2/gh/julianShi/analytical-mechanics/HEAD)
 - Colab: open notebooks from the repo directly in Colab.
 
 ## Contributing

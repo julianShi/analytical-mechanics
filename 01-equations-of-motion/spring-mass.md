@@ -39,3 +39,8 @@ $\displaystyle mr\left(\frac{M_{0}}{mr^{2}}\right)^{2} -k( r-l) =m\ddot{r}$
 移项，得到关于 $\displaystyle r( t)$ 的二阶非线性方程
 
 $\displaystyle m\ddot{r} +kr-\frac{M_{0}^{2}}{mr^{3}} =kl$
+
+## SymPy 验证
+
+请参考 [../README.md](../README.md) 访问在线SymPy环境，并执行 [spring-mass.ipynb](spring-mass.ipynb) 代码
+

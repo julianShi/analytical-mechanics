@@ -109,7 +109,7 @@ $$ r=\frac{M_0^{2}}{GMm^{2}}\frac{1}{1+e\cos (\theta +\theta _{0} )} $$
 
 ## 4维空间行星轨道
 
-已知三维空间的引力势能
+已知4维空间的引力势能
 
 $\displaystyle U=-\frac{GMm}{2r^{2}} =-\frac{GMmu^{2}}{2}$
 
@@ -123,75 +123,11 @@ $\displaystyle \frac{d^{2} u}{d\theta ^{2}} +\left( 1-\frac{GMm^{2}}{M_{0}^{2}}\
 
 这是二元齐次常系数线性微分方程。
 
-因为力学中常用 $L$ ，而不是 $M_0$ 表示角动量，所以如下讨论沿用 $L$ 表示角动量，而不是拉格朗日量。
+微分方程容易求解，但是对不同能量情况下对讨论篇幅比较长。所以放到了独立的文件当中。请参考
 
-根据其特征根的正负号，作如下讨论
+[4d-planet-orbit.md](4d-planet-orbit.md)
 
-### 自由态
-
-角动量大的时候
-
-$$1-\frac{GMm^2}{L^{2}}  >0$$ 
-
-有通解
-
-$$\frac{1}{r} =u=C_{6}\cos\left(\sqrt{1-\frac{GMm^{2}}{L^{2}}} \theta +\theta _{0}\right)$$
-
-### 临界态
-
-角动量刚好的时候
-
-$$1-\frac{GMm^2}{L^{2}} =0$$
-
-有通解
-
-$$\frac{1}{r} =u=C_{7} +C_{8} \theta $$
-
-是一条螺旋线。当 $C_8>0$  行星旋出。当 $C_8<0$  行星旋进。当 $C_8=0$  行星是不稳定的圆形轨道。
-
-如果旋进的话，行星会不会旋进到太阳呢？
-
-对通解两侧对时间微分
-
-$$-\frac{1}{r^{2}}\dot{r} =C_{8}\dot{\theta }$$
-
-代入动量公式
-
-$$L=mr^{2}\dot{\theta }$$
-
-消去角度，得到
-
-$$-\frac{1}{r^{2}}\dot{r} =C_{8}\dot{\theta } =\frac{C_{8} L}{mr^{2}}$$
-
-消去相同因式，得到
-
-$$\dot{r} =-\frac{C_{8} L}{m}$$
-
-积分得到
-
-$$r( t) =R_0-\frac{C_{8} L}{m} t$$
-
-即行星会以恒定径向速度，坠入恒星（角速度越来越快），或者远离恒星。
-
-### 束缚态
-
-角动量小的时候
-
- $1-\frac{GMm^2}{L^{2}} < 0$ 
-
-有通解
-
-$$\frac{1}{r} =u=C_{7}\exp\left(\sqrt{\frac{GMm^{2}}{L^{2}} -1} \theta \right) +C_{8}\exp\left( -\sqrt{\frac{GMm^{2}}{L^{2}} -1} \theta \right)$$
-
-假设 $\theta(t)$ 单调递增。
-
-当 $C_7C_8>0$ ，即同号 ， $r$ 有最大值。意味着，即使行星刚开始旋出，也会随后旋入，最终坠落到恒星。
-
-当 $C_7 C_8<0$  ， $r$ 无最大值。意味着，即使行星旋出的话，将以渐近线的方式运动到无穷远。
-
-当 $C_7C_8=0$  ，行星轨道退化成螺旋线
-
-### 总结
+其结论总结如下
 
 | 分类   | 判定  | 3维轨道 | 判定        | 4维轨道            |
 | ------ | ----- | ------- | ----------- | ------------------ |
@@ -243,3 +179,6 @@ https://github.com/julianShi/math-calculus/blob/planet-orbit/07-differential-equ
 
 免费网页Desmos画图工具 [desmos-plot.md](desmos-plot.md)
 
+## SymPy 验证
+
+请参考 [../README.md](../README.md) 访问在线SymPy环境，并执行 [central-force.ipynb](central-force.ipynb) 代码
