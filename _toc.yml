@@ -3,20 +3,21 @@ root: index
 parts:
   - caption: Equations of Motion
     chapters:
-      - file: 01-equations-of-motion/README
-      - file: 01-equations-of-motion/chain-rule
-      - file: 01-equations-of-motion/central-force
-      - file: 01-equations-of-motion/parabolic
-      - file: 01-equations-of-motion/spring-mass
-      - file: 01-equations-of-motion/functional
-      - file: 01-equations-of-motion/action
-      - file: 01-equations-of-motion/desmos-plot
-      - file: 01-equations-of-motion/sympy-calculator
+      - file: 01-equations-of-motion/README.md
+      - file: 01-equations-of-motion/chain-rule.md
+      - file: 01-equations-of-motion/central-force.md
+      - file: 01-equations-of-motion/parabolic.md
+      - file: 01-equations-of-motion/spring-mass.md
+      - file: 01-equations-of-motion/functional.md
+      - file: 01-equations-of-motion/action.md
+      - file: 01-equations-of-motion/desmos-plot.md
+      - file: 01-equations-of-motion/sympy-calculator.md
+      - file: 01-equations-of-motion/4d-planet-orbit.md
   - caption: Conservation Laws
     chapters:
-      - file: 02-conservation-law/angular-momentum
+      - file: 02-conservation-law/angular-momentum.md
   - caption: Appendices
     chapters:
-      - file: appendices/vector
-      - file: appendices/sympy-calculator
-      - file: appendices/lev-landau
+      - file: appendices/vector.md
+      - file: appendices/sympy-calculator.md
+      - file: appendices/lev-landau.md
