@@ -15,6 +15,23 @@ Open textbook for teaching Analytical Mechanics with reproducible notebooks and 
   python -m http.server -d _build/html 8000
   ```
 
+## Student setup (minimal SymPy environment)
+
+- macOS/Linux:
+  ```bash
+  curl -fsSL -o install.sh https://raw.githubusercontent.com/julianShi/analytical-mechanics/main/install.sh
+  bash install.sh
+  source .venv/bin/activate
+  jupyter notebook
+  ```
+- Windows (PowerShell):
+  ```powershell
+  Invoke-WebRequest -Uri https://raw.githubusercontent.com/julianShi/analytical-mechanics/main/install.ps1 -OutFile install.ps1
+  powershell -ExecutionPolicy Bypass -File .\install.ps1
+  . .\.venv\Scripts\Activate.ps1
+  jupyter notebook
+  ```
+
 ## Launch online
 
 - Binder: [Launch Binder](https://mybinder.org/v2/gh/julianShi/analytical-mechanics/HEAD)
