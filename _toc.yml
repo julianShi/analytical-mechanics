@@ -19,5 +19,4 @@ parts:
   - caption: Appendices
     chapters:
       - file: appendices/vector.md
-      - file: appendices/sympy-calculator.md
       - file: appendices/lev-landau.md

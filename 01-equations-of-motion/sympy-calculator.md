@@ -1,4 +1,4 @@
-## 免费网页SymPy计算器
+# 免费网页SymPy计算器
 
 忘记怎么求解微分方程？这个好办。可以使用免费的 网页计算器 https://bubbleuniverse.github.io/symbolic/calculator
 
