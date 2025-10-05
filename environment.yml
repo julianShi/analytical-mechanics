@@ -1,0 +1,24 @@
+name: analytical-mechanics
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - jupyter
+  - jupyterlab
+  - notebook
+  - jupyter-book
+  - myst-nb
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - ipywidgets
+  - plotly
+  - pandas
+  - pip
+  - pip:
+      - nbclient
+      - nbmake
+      - nbqa
+      - black
+      - flake8

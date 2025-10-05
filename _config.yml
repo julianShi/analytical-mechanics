@@ -1,0 +1,41 @@
+# Jupyter Book configuration
+# Docs: https://jupyterbook.org/en/stable/customize/config.html
+
+# Book settings
+title: Analytical Mechanics
+author: Yulin Shi (and contributors)
+logo: null
+only_build_toc_files: true
+
+# Execution settings
+execute:
+  execute_notebooks: auto  # run notebooks during build if needed
+  timeout: 180
+  allow_errors: false
+
+# HTML settings
+html:
+  favicon: null
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+  extra_navbar: ""
+  extra_footer: |
+    <p>Text and figures © CC-BY 4.0; Code © MIT License.</p>
+
+# Repository settings (update url/branch as needed)
+repository:
+  url: https://github.com/julianShi/analytical-mechanics
+  path_to_book: ""
+  branch: main
+
+launch_buttons:
+  binderhub_url: https://mybinder.org
+  colab_url: https://colab.research.google.com
+  notebook_interface: classic
+
+sphinx:
+  config:
+    html_theme: pydata_sphinx_theme
+    myst_heading_anchors: 3
+    nb_execution_raise_on_error: true

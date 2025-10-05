@@ -1,0 +1,22 @@
+format: jb-book
+root: index
+parts:
+  - caption: Equations of Motion
+    chapters:
+      - file: 01-equations-of-motion/README
+      - file: 01-equations-of-motion/chain-rule
+      - file: 01-equations-of-motion/central-force
+      - file: 01-equations-of-motion/parabolic
+      - file: 01-equations-of-motion/spring-mass
+      - file: 01-equations-of-motion/functional
+      - file: 01-equations-of-motion/action
+      - file: 01-equations-of-motion/desmos-plot
+      - file: 01-equations-of-motion/sympy-calculator
+  - caption: Conservation Laws
+    chapters:
+      - file: 02-conservation-law/angular-momentum
+  - caption: Appendices
+    chapters:
+      - file: appendices/vector
+      - file: appendices/sympy-calculator
+      - file: appendices/lev-landau
